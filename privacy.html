@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy – RateMate Currency Converter</title>
+<meta name="description" content="Privacy policy for the RateMate Currency Converter Android app.">
+<!-- Generated from PRIVACY_POLICY.md by store/tools/privacy_html.py. Edit the markdown, then rerun. -->
+<style>
+  :root { --bg: #F5FBF7; --fg: #171D1A; --muted: #3F4945; --accent: #0E6B4F; --line: #DBE5DF; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0F1512; --fg: #DEE4E0; --muted: #BFC9C3; --accent: #8DD6B6; --line: #3F4945; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 12px; color: var(--accent); }
+  h2 { font-size: 1.25rem; margin: 32px 0 8px; padding-top: 16px; border-top: 1px solid var(--line); }
+  p, li { color: var(--fg); }
+  ul { padding-left: 1.25rem; }
+  a { color: var(--accent); overflow-wrap: anywhere; }
+</style>
+</head>
+<body>
+<main>
+<h1>Privacy policy</h1>
+<p>RateMate Currency Converter (Android app, package com.elvismun.currencyconverter)</p>
+<p>Last updated: 21 November 2026</p>
+<p>This policy explains what data the RateMate Currency Converter app (&quot;RateMate&quot; or the &quot;app&quot;) handles, who receives it, and the choices you have. The app is published by Elvis (the &quot;developer&quot;). The same text is shown in the app under Settings, Privacy policy.</p>
+<p>In short: the app has no account, no sign-up, and no developer server. Your amounts, favourite currencies and settings stay on your phone. The app downloads exchange rates directly from two public rate services. It shows ads from Google AdMob, asks for consent where the law requires it, and sells a one-time &quot;Remove ads&quot; purchase through Google Play.</p>
+<h2>Contact</h2>
+<p>For privacy questions or requests, email:</p>
+<p><a href="mailto:your-contact-email@example.com">your-contact-email@example.com</a></p>
+<h2>Data stored on your phone</h2>
+<p>The app saves these items with Android Jetpack DataStore, in the app&#x27;s private storage on your device:</p>
+<ul>
+<li>The two currencies you convert between (Here and Home), and whether first-run setup is done. The amount you type is not saved between launches</li>
+<li>Your favourite currencies and their order, and the countries where you tapped &quot;Not now&quot; on the travel prompt</li>
+<li>Your theme choice (light, dark or system) and whether wallpaper colours are on</li>
+<li>The last downloaded exchange-rate table and the time it was downloaded, so conversion works offline</li>
+<li>Whether ads were removed by a purchase</li>
+<li>Rate history charts you have opened (a currency pair, a date range and the daily or weekly rates), saved as files in the app&#x27;s private storage so they work offline</li>
+<li>For each home-screen widget you add, the amount it converts</li>
+</ul>
+<p>The home-screen widget reads only this saved data. It makes no network requests and contains no ads.</p>
+<p>This data is not sent to the developer. There is no developer server and the developer cannot see it.</p>
+<p>Android may include this app data in your device backup to your Google account if you have Android Backup turned on. That backup is managed by Google under your Google account settings. Uninstalling the app or clearing its storage (Android Settings, Apps, RateMate, Storage, Clear storage) deletes the data on the phone.</p>
+<h2>Exchange rates</h2>
+<p>Your phone downloads the rate table directly from the rate services. The request contains only the base currency (USD). It contains no account, no advertising ID, and none of the amounts you type. Like any internet request, the service receives your device&#x27;s IP address and basic connection information.</p>
+<p>Primary source: Frankfurter, a free, open-source exchange rate API that publishes reference rates, including rates published by the European Central Bank (ECB).</p>
+<p><a href="https://api.frankfurter.dev/v2/rates?base=usd">https://api.frankfurter.dev/v2/rates?base=usd</a></p>
+<p><a href="https://frankfurter.dev/">https://frankfurter.dev/</a></p>
+<p>Rate history charts also come only from Frankfurter. When you open a chart, the request contains the two currencies of that pair and the date range you picked, for example from=2026-10-21&amp;to=2026-11-20&amp;base=usd&amp;quotes=eur. It contains nothing else about you. The chart is saved on your phone and is not downloaded again for a day.</p>
+<p>Endpoint: <a href="https://api.frankfurter.dev/v2/rates">https://api.frankfurter.dev/v2/rates</a> with from, to, base and quotes</p>
+<p>Fallback source, used only when Frankfurter does not return a usable table: ExchangeRate-API, open access endpoint. When these rates are on screen, the app shows the attribution &quot;Rates By Exchange Rate API&quot;.</p>
+<p><a href="https://open.er-api.com/v6/latest/USD">https://open.er-api.com/v6/latest/USD</a></p>
+<p><a href="https://www.exchangerate-api.com/terms">https://www.exchangerate-api.com/terms</a></p>
+<p>The app refreshes rates automatically at most once every 24 hours, and when you pull down to refresh. Exchange rates are for information only. They are not an offer to trade or exchange money.</p>
+<h2>Advertising (Google AdMob)</h2>
+<p>The app shows one kind of ad from Google AdMob: a banner on the main screen, in its own space that never covers the converter or the keypad. The banner is not shown after you buy &quot;Remove ads&quot;.</p>
+<p>When ads are allowed, the Google Mobile Ads SDK in the app may collect and send to Google:</p>
+<ul>
+<li>Advertising ID (and, if the advertising ID is unavailable, an app set ID)</li>
+<li>IP address, and an approximate location derived from it</li>
+<li>Device and app information, such as device model, operating system version, language and app version</li>
+<li>Ad interactions, such as ads shown and taps on ads</li>
+<li>Diagnostic and performance data, such as crash logs</li>
+</ul>
+<p>Google uses this data to deliver and measure ads, prevent fraud and abuse, and, if you allow it, show personalised ads. The app does not request location permission. Travel mode reads the country code your phone&#x27;s mobile network reports (or your phone&#x27;s region setting) on the device, to suggest switching currency; it is not stored beyond &quot;Not now&quot; choices and is never sent anywhere. The app does not request precise location, contacts, camera, microphone, photos, files or SMS. Ad content is limited to a maximum rating of PG, and the app tells AdMob it is not directed at children.</p>
+<p>Google&#x27;s privacy policy and how Google uses data from apps:</p>
+<p><a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
+<p><a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a></p>
+<p>Google&#x27;s description of data collected by the Mobile Ads SDK:</p>
+<p><a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">https://developers.google.com/admob/android/privacy/play-data-disclosure</a></p>
+<h2>Consent (Google User Messaging Platform)</h2>
+<p>At launch the app uses Google&#x27;s User Messaging Platform (UMP) SDK to check whether a consent choice is needed in your region, for example in the European Economic Area, the United Kingdom and Switzerland, or under some US state privacy laws. If it is, a Google consent form is shown before any ad is requested. To decide this, the UMP SDK sends Google your device&#x27;s IP address and device and app information, and stores your choice on your device.</p>
+<p>If ads cannot be requested under your choice, the app does not start the ad SDK and no ads are loaded. Ad measurement is held back until the ad SDK starts.</p>
+<p>To change your choice later, clear the app&#x27;s storage or reinstall the app; the consent form is shown again on the next launch where it applies.</p>
+<h2>Purchases (Google Play Billing)</h2>
+<p>&quot;Remove ads&quot; is a one-time purchase sold and processed by Google Play. Google handles payment and your payment details; the app never sees your card or bank information. The Google Play Billing library tells the app whether your Google account owns the purchase, so it can hide ads and restore the purchase on a new device. The app stores only a yes/no flag that ads were removed. Google Play&#x27;s terms and privacy policy apply to the payment.</p>
+<p><a href="https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&amp;ldt=privacynotice">https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&amp;ldt=privacynotice</a></p>
+<h2>Advertising ID and ad choices</h2>
+<p>You can reset or delete your advertising ID, or opt out of personalised ads, in Android Settings (Privacy, Ads, or Google, Ads, depending on the device). Google&#x27;s ad settings:</p>
+<p><a href="https://myadcenter.google.com/">https://myadcenter.google.com/</a></p>
+<h2>Permissions</h2>
+<ul>
+<li>INTERNET: download exchange rates and ads</li>
+<li>ACCESS_NETWORK_STATE: know when the phone is offline, so the app skips a download and uses saved rates</li>
+<li>AD_ID: added by the Google Mobile Ads SDK, to read the advertising ID</li>
+<li>ACCESS_ADSERVICES_AD_ID, ACCESS_ADSERVICES_ATTRIBUTION, ACCESS_ADSERVICES_TOPICS: added by the Google Mobile Ads SDK, for Android&#x27;s Privacy Sandbox advertising APIs where the device supports them</li>
+<li>WAKE_LOCK and FOREGROUND_SERVICE: added by Google libraries bundled with the ad SDK, for short background work such as finishing a network request</li>
+<li>BILLING: added by Google Play Billing, for the &quot;Remove ads&quot; purchase</li>
+</ul>
+<p>The app does not request any permission that shows a runtime prompt.</p>
+<h2>Sharing and selling</h2>
+<p>The developer does not sell personal data and does not share it with anyone else. The only parties that receive data from the app are the ones described above: Google (AdMob, UMP consent, Play Billing, and Android backup if you turned it on), Frankfurter, and ExchangeRate-API. All network traffic uses HTTPS.</p>
+<h2>Data retention and deletion</h2>
+<p>Data on the phone stays until you clear the app&#x27;s storage or uninstall the app. The developer holds no data about you, so there is nothing for the developer to delete. Data collected by Google is kept under Google&#x27;s retention policies and can be managed at <a href="https://myaccount.google.com">https://myaccount.google.com</a>. The rate services&#x27; handling of request logs is described in their own terms.</p>
+<h2>Children</h2>
+<p>The app is a general-purpose utility for a general audience. It is not directed at children under 13 and does not knowingly collect personal data from children.</p>
+<h2>Your rights</h2>
+<p>Depending on where you live (for example under the GDPR, UK GDPR or US state privacy laws) you may have rights to access, correct, delete or object to the processing of your data. Because the developer does not hold personal data, most requests are best made to Google for ad-related data. You can still contact the developer at the email address above.</p>
+<h2>Changes to this policy</h2>
+<p>If this policy changes, the &quot;Last updated&quot; date above will change, and the new version will be published at the same web address and in the next app update.</p>
+</main>
+</body>
+</html>
