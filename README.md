@@ -4,6 +4,7 @@ Public site for the RateMate Android app: the privacy policy and a short support
 
 - Site: https://3lvis777.github.io/ratemate/
 - Privacy policy: https://3lvis777.github.io/ratemate/privacy.html
+- app-ads.txt: https://3lvis777.github.io/ratemate/app-ads.txt
 
 The app itself lives in a separate private repository. This repo has no app source code.
 
